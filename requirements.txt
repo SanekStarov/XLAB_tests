@@ -1,0 +1,8 @@
+telegram-send==0.25
+pytest==7.0.1
+allure-pytest==2.9.45
+allure-python-commons==2.9.45
+selenium==4.1.2
+python-telegram-bot==13.9
+pyTelegramBotAPI==4.4.0
+redis==4.1.3

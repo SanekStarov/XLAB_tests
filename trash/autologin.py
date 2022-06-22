@@ -2,9 +2,11 @@ import redis
 import time
 from random import randint
 
-#bo22wxfhat3aqto8tj0aptn3d9a4eiat
+host = ''
+port = 0000
+password = ''
 
-client = redis.Redis(host='192.168.1.118', port=6378, password="bo22wxfhat3aqto8tj0aptn3d9a4eiat")
+client = redis.Redis(host=host, port=port, password=password)
 
 
 def random_phone_num_generator():

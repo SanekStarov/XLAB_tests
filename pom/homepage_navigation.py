@@ -12,7 +12,6 @@ class HomepageNav(SeleniumBaseClass):
         self.driver = driver
         self.__nav_links_header: str = 'ul.Header_header__nav_container__cClyJ>li'
         self.__nav_links_footer: str = 'div.footer__container-links-item'
-        #'div.footer__container-links>div.footer__container-links-item>a.footer_description-text-link'#'p.footer_description-text.description-text'
         self.NAV_HEADER_LINKS_TEXT = 'Кредит наличными,Кредитные карты,Карты рассрочки,Займ под 0%'
         self.NAV_FOOTER_LINKS_TEXT = ''
 
